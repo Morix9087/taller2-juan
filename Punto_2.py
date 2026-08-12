@@ -96,3 +96,9 @@ df_temp
 # %%
 df_temp["Proporción"]=df_temp["Selling_Price"]/df_temp["Ex_Showroom_Price"]
 df_temp
+
+# %%
+# ### Operación 12:
+# Se define una función que eleva al cuadrado un número.
+def elevar2(x):
+  return x**2
