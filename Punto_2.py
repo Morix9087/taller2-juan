@@ -85,7 +85,14 @@ df_temp
 # Añadir nueva columna correspondiente a la diferencia del precio de compra y precio de venta
 
 # %%
-df_temp["Difference"]=df_temp["Ex_Showroom_Price"]-df_temp["Selling_Price"]
+df_temp["Diferencia"]=df_temp["Ex_Showroom_Price"]-df_temp["Selling_Price"]
 df_temp
 
 
+# %% [markdown]
+# ### Operación 11:
+# Añadir nueva columna correspondiente a la proporción del precio de compra y precio de venta
+
+# %%
+df_temp["Proporción"]=df_temp["Selling_Price"]/df_temp["Ex_Showroom_Price"]
+df_temp
