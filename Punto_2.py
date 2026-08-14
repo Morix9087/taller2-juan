@@ -102,3 +102,9 @@ df_temp
 # Se define una función que eleva al cuadrado un número.
 def elevar2(x):
   return x**2
+
+# %%
+# ### Operación 13:
+# Se aplica la función a la columna "Diferencia" y se crea una nueva columna
+df_temp["Diferencia_Elevada"] = df_temp["Diferencia"].apply(elevar2)
+df_temp
