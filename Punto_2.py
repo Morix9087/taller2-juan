@@ -108,3 +108,16 @@ def elevar2(x):
 # Se aplica la función a la columna "Diferencia" y se crea una nueva columna
 df_temp["Diferencia_Elevada"] = df_temp["Diferencia"].apply(elevar2)
 df_temp
+
+
+# %%
+# ### Operación 14 de tu compañero:
+# Se define una función que eleva al cubo un número.
+def elevar3(x):
+  return x**3
+
+# %%
+# ### Operación 15 de tu compañero:
+# Se aplica la función a la columna "Diferencia" y se crea una nueva columna
+df_temp["Diferencia_Elevada3"] = df_temp["Diferencia"].apply(elevar3)
+df_temp
